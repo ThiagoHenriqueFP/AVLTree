@@ -44,10 +44,10 @@ public class Main {
                     authenticated = true;
                     break;
                 case 2:
-//                    if(!authenticated){
-//                        System.out.println("esta funcao precisa de autenticacao");
-//                        break;
-//                    }
+                    if(!authenticated){
+                        System.out.println("esta funcao precisa de autenticacao");
+                        break;
+                    }
 
                     System.out.println("Informe o renavan");
                     String renavan = sc.next();
@@ -78,10 +78,10 @@ public class Main {
                     break;
 
                 case 3:
-//                    if(!authenticated){
-//                        System.out.println("esta funcao precisa de autenticacao");
-//                        break;
-//                    }
+                    if(!authenticated){
+                        System.out.println("esta funcao precisa de autenticacao");
+                        break;
+                    }
 
                     System.out.println("informe o renavan do carro");
                     String key = sc.next();
@@ -94,10 +94,10 @@ public class Main {
                     System.out.println(result);
                     break;
                 case 4:
-//                    if(!authenticated){
-//                        System.out.println("esta funcao precisa de autenticacao");
-//                        break;
-//                    }
+                    if(!authenticated){
+                        System.out.println("esta funcao precisa de autenticacao");
+                        break;
+                    }
 
                     System.out.println("informe o renavan do carro");
                     String keyToRemove = sc.next();
@@ -110,10 +110,10 @@ public class Main {
                     System.out.println(deleteResult);
                     break;
                 case 5:
-//                    if(!authenticated){
-//                        System.out.println("esta funcao precisa de autenticacao");
-//                        break;
-//                    }
+                    if(!authenticated){
+                        System.out.println("esta funcao precisa de autenticacao");
+                        break;
+                    }
 
                     System.out.println("Informe o renavan");
                     renavan = sc.next();
@@ -146,27 +146,27 @@ public class Main {
                     break;
 
                 case 6:
-//                    if(!authenticated){
-//                        System.out.println("esta funcao precisa de autenticacao");
-//                        break;
-//                    }
+                    if(!authenticated){
+                        System.out.println("esta funcao precisa de autenticacao");
+                        break;
+                    }
 
                     System.out.printf("numero de rotacoes da arvore %d%n", protocol.getRotations());
                     break;
                 case 7:
-//                    if(!authenticated){
-//                        System.out.println("esta funcao precisa de autenticacao");
-//                        break;
-//                    }
+                    if(!authenticated){
+                        System.out.println("esta funcao precisa de autenticacao");
+                        break;
+                    }
 
                     System.out.printf("altura da arvore %d%n", protocol.getHeight());
                     break;
 
                 case 8:
-//                    if(!authenticated){
-//                        System.out.println("esta funcao precisa de autenticacao");
-//                        break;
-//                    }
+                    if(!authenticated){
+                        System.out.println("esta funcao precisa de autenticacao");
+                        break;
+                    }
 
                     protocol.getAll();
                     break;
