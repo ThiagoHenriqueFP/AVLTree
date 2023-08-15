@@ -7,8 +7,8 @@ import java.util.Scanner;
 
 public class Main {
 
-    private static String HARDCODED_USERNAME = "Paulo";
-    private static String HARDCODED_PASSWORD = "ed2emuitoelegante";
+    private static String HARDCODED_USERNAME = "a";
+    private static String HARDCODED_PASSWORD = "a";
 
     static TMP protocol = new TMP();
     public static void main(String[] args){
@@ -196,7 +196,7 @@ public class Main {
 
             protocol.insertCar(new Car(
                     "ngx"+random,
-                    "presaved" + random,
+                    ""+random*13,
                     "moto qualquer",
                     "moto",
                     2015,
